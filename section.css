@@ -1,0 +1,79 @@
+.fb img {
+	width: 167px;
+	height: 27px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.local {
+	font-weight: bold;
+	font-size: 20px;
+	height: 20px;
+	margin: 12px 0;
+	line-height: 1;
+}
+
+.local img {
+	height: 100%;
+}
+
+.map {
+	text-align: center;
+}
+
+.map img {
+	width: 430px;
+	height: 300px;
+}
+
+.traffic {
+	margin: 2px;
+	padding: 1px 8px;
+	background: rgb(204, 255, 255);
+	border: 1px dashed #000;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.traffic-header {
+	display: inline-block;
+	margin: 0 0 5px;
+	padding: 2px;
+	background: #fff;
+	color: rgb(255, 127, 39);
+}
+
+.about {
+	position: relative;
+	height: 160px;
+	font-size: 0;
+}
+
+.about::before {
+	content: '';
+	display: inline-block;
+    vertical-align: middle;
+	height: 100%;
+}
+
+.about-container {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.about p {
+	height: 26px;
+	line-height: 26px;
+	margin: 12px 6px;
+}
+
+.about img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+}

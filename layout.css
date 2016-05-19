@@ -36,15 +36,19 @@ ul.nav {
 	overflow: auto;
 }
 
+.topnav {
+	font-size: 26px;
+	text-align: center;
+}
+
 ul.nav li {
 	box-sizing: border-box;
 	float: left;
 	width: 20%;
-	padding: 4px 0;
+	padding: 6px 8px;
 	background: rgb(251,212,180);
 	border: 1px solid #000;
 	color: #000;
-	text-align: center;
 	font-weight: bold;
 }
 
@@ -67,7 +71,7 @@ ul.nav a {
 .main {
 	box-sizing: border-box;
 	float: left;
-	width: 80%;
+	width: 78%;
 	padding-right: 5px;
 }
 
@@ -80,23 +84,38 @@ ul.nav a {
 	padding: 4px 0px 0px 0px;
 }
 
+.side-figure {
+	padding: 0px 8px;
+}
+
+.side-figure img {
+	width: 100%;
+}
+
+ul.side-nav {
+	margin: 4px 0;
+}
+
 ul.side-nav li {
 	float: none;
 	width: 100%;
-	margin: 4px 4px 0px 0px;
+}
+
+ul.side-nav li:not(:first-child) {
+	margin-top: -1px;
 }
 
 .side-block {
-	text-align: center;
+	margin: 20px 2px;
 	color: rgb(51, 51, 255);
-	font-size: 13px;
+	text-align: center;
+	font-size: 15px;
 	font-weight: bold;
-	margin: 20px 12px;
 }
 
 .side-block img {
-	max-width: 55%;
-	max-height: 55%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .side-block p {
@@ -106,14 +125,43 @@ ul.side-nav li {
 /* =============================================================================
  * = footer
  * ========================================================================== */
+
+.footer {
+	overflow: auto;
+	width: 100%;
+	margin: 4px 0 8px;
+}
+
 .footer .topnav {
 	font-size: 12px;
 }
 
-.footer .main {
-	width: 75%;
+.footer-main {
+	float: left;
+	width: 70%;
+	font-size: 13px;
+	text-align: center;
 }
 
-.footer .side {
-	width: 25%;
+.footer-side {
+	float: right;
+	width: 30%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.counter {
+	display: inline-block;
+	width: 169px;
+	height: 26px;
+	margin: 24px auto;
+}
+
+.counter span {
+	float: left;
+}
+
+.counter img {
+	width: 115px;
+	height: 22px;
 }

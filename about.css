@@ -1,0 +1,26 @@
+.about_top {
+	background: #9acd32;
+	text-align: center;
+}
+
+.about_top h1 {
+font-size: 30px;
+font-weight: bold;
+
+}
+.about_top h2 {
+	display: inline-block;
+font-size: 26px;
+font-weight: bold;
+border-top: 2px solid red;
+}
+.about_content h3{
+	color: #6495ed;
+	margin: 20px 0px;
+}
+.about_content p{
+	margin-left: 40px;
+}
+.side-about{
+	margin: 5px 0px 40px;
+}
